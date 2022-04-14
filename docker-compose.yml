@@ -18,6 +18,7 @@ services:
       - DATABASE=postgres
       - VIRTUAL_HOST=ec2-34-199-60-123.compute-1.amazonaws.com
       - VIRTUAL_PORT=8000
+  
   nginx:
     build: ./nginx
     image: ec2-34-199-60-123.compute-1.amazonaws.com/workshop2:workshop2_nginx
